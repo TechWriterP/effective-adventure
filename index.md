@@ -1,4 +1,5 @@
 ---
+title: Demo page
 author: Ptolemy
 ---
 
