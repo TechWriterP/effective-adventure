@@ -1,5 +1,6 @@
 ---
 title: Demo page
+layout: demo_template
 author: Ptolemy
 ---
 
