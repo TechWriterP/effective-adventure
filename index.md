@@ -6,12 +6,13 @@ author: Ptolemy
 
 ## This page is written by {{page.author}}
 
-| Year | Name |
-|----- |----- |
-| random | random |
+Example of random row: {{site.data.films.director2}}
+
 
 {% for anything in site.data.films %}
-|{{anything.year}}| {{anything.film}}|
+
+- {{anything.year}}: {{anything.film}}
+
 {% endfor %}
 
 
