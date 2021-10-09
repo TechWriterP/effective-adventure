@@ -6,6 +6,12 @@ author: Ptolemy
 
 ## This page is written by {{page.author}}
 
+{% for item in site.data.films %}
+
+{{ item.year }}: {{ item.film }}
+
+{% endfor %}
+
 {% include text_for_includes.txt %}
 
 
