@@ -6,7 +6,7 @@ author: Ptolemy
 
 ## This page is written by {{page.author}}
 
-Example of random row: {{site.data.films.director:2}}
+Example of random row: {{site.data.films.director[2]}}
 
 
 {% for anything in site.data.films %}
