@@ -8,7 +8,7 @@ author: Ptolemy
 
 {% for item in site.data.films %}
 
-{{ item.year }}: {{ item.film }}
+{{item.year}}: {{item.film}}
 
 {% endfor %}
 
