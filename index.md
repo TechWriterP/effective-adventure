@@ -4,6 +4,8 @@ layout: demo_template
 author: Ptolemy
 ---
 
+# heading
+
 ## This page is written by {{page.author}}
 
 Example of random row: {{site.data.films.director[2]}}
